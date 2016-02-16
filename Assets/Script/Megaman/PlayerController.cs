@@ -5,6 +5,7 @@ public class PlayerController : MonoBehaviour
 {
 	public Rigidbody2D _body = null;
 	public Animator _animator = null;
+	public SpriteRenderer _spriteRenderer = null;
 	public float _velocity = 10.0f;
 	public float _velocityJump = 10.0f;
 
@@ -12,6 +13,7 @@ public class PlayerController : MonoBehaviour
 	{
 		this._body = this.GetComponent<Rigidbody2D> ();
 		this._animator = this.GetComponent<Animator> ();
+		this._spriteRenderer = this.GetComponent<SpriteRenderer> ();
 	}
 
 	void Update ()
@@ -19,13 +21,13 @@ public class PlayerController : MonoBehaviour
 		float horizontal = Input.GetAxis ("Horizontal");
 		if (horizontal != 0) 
 		{
-			if (this.transform.localScale.x < 0 && horizontal > 0 || this.transform.localScale.x > 0 && horizontal < 0) 
+			if (this._spriteRenderer.flipX && horizontal > 0 || !this._spriteRenderer.flipX && horizontal < 0) 
 			{
-				this.transform.localScale = new Vector3(this.transform.localScale.x * -1, this.transform.localScale.y, this.transform.localScale.z);
+				this._spriteRenderer.flipX = !this._spriteRenderer.flipX;
 			}
 		}
 
-		this._animator.SetFloat ("velocity", Mathf.Abs(this._body.velocity.x));
+		this._animator.SetFloat ("velocity", Mathf.Abs(horizontal * 1.5f));
 
 		float velocity = ((this._velocity * horizontal)- this._body.velocity.x) * 100;
 		this._body.AddForce(Vector2.right * velocity * Time.deltaTime, ForceMode2D.Force);
