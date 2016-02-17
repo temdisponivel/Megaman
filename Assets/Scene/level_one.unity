@@ -212,7 +212,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 5025204, guid: 0b37cee9a854cc4478a828a83bf752f7, type: 2}
       propertyPath: m_LinearDrag
-      value: 0.1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5802450, guid: 0b37cee9a854cc4478a828a83bf752f7, type: 2}
+      propertyPath: m_Radius
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 5802450, guid: 0b37cee9a854cc4478a828a83bf752f7, type: 2}
+      propertyPath: m_Offset.y
+      value: 0.33
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0b37cee9a854cc4478a828a83bf752f7, type: 2}
@@ -259,3 +267,21 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 71cfb2cdb6f7db3418c5553ea1255a8f, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2046873102 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 129290, guid: 0b37cee9a854cc4478a828a83bf752f7, type: 2}
+  m_PrefabInternal: {fileID: 152387224}
+--- !u!58 &2046873109
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2046873102}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 6200000, guid: 558e594e5300d7a4ca1658a1e172fc5a, type: 2}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: -0.28}
+  serializedVersion: 2
+  m_Radius: 0.2742586
