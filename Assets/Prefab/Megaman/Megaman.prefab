@@ -16,7 +16,7 @@ GameObject:
   - 58: {fileID: 5893028}
   m_Layer: 0
   m_Name: Megaman
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -109,8 +109,8 @@ MonoBehaviour:
   _body: {fileID: 0}
   _animator: {fileID: 0}
   _spriteRenderer: {fileID: 0}
-  _velocity: 15
-  _velocityJump: 300
+  _velocity: 5
+  _velocityJump: 7
 --- !u!212 &21267022
 SpriteRenderer:
   m_ObjectHideFlags: 1
