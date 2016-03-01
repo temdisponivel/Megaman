@@ -59,7 +59,6 @@ public class PlayerController : MonoBehaviour
             Vector2 sideDirection = Vector2.zero;
             if ((this._state & PlayerState.OnWall) == PlayerState.OnWall)
             {
-                /*
                 Vector2 wallPosition = this._collisionWall.transform.position - this.transform.position;
                 if (wallPosition.x >= 0)
                 {
@@ -69,7 +68,6 @@ public class PlayerController : MonoBehaviour
                 {
                     this._body.AddForce(Vector2.right * this._velocityJump, ForceMode2D.Impulse);
                 }
-                */
             }
             this._body.gravityScale = this._gravityScaleBkp;
             this._body.AddForce(direction, ForceMode2D.Impulse);
