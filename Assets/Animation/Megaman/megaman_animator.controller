@@ -234,7 +234,7 @@ AnimatorState:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: mega_man_idle
-  m_Speed: 0.8
+  m_Speed: 0.6
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 110125054}
@@ -268,14 +268,14 @@ AnimatorStateMachine:
     m_Position: {x: 276, y: 144, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 110259630}
-    m_Position: {x: -24, y: 132, z: 0}
+    m_Position: {x: -24, y: 144, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
   m_StateMachineTransitions: {}
   m_StateMachineBehaviours: []
-  m_AnyStatePosition: {x: 0, y: 228, z: 0}
-  m_EntryPosition: {x: 132, y: -120, z: 0}
+  m_AnyStatePosition: {x: 156, y: 252, z: 0}
+  m_EntryPosition: {x: 156, y: -120, z: 0}
   m_ExitPosition: {x: 800, y: 120, z: 0}
   m_ParentStateMachinePosition: {x: 800, y: 20, z: 0}
   m_DefaultState: {fileID: 110276658}

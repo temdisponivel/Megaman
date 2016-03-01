@@ -54,6 +54,13 @@ public class PlayerController : MonoBehaviour
         {
             this._body.AddForce(direction, ForceMode2D.Force);
         }
+        else
+        {
+            if (this._body.velocity.x != 0)
+            {
+                this._body.AddForce(Vector2.right * this._velocity * this._body.velocity.x, ForceMode2D.Force);
+            }
+        }
 
         if (this.ShouldJump(out direction))
         {
@@ -71,7 +78,14 @@ public class PlayerController : MonoBehaviour
             }
             this._body.gravityScale = this._gravityScaleBkp;
             this._body.AddForce(direction, ForceMode2D.Force);
-            this._animator.SetBool("jumping", true);
+            if (this._animator.GetBool("jumping"))
+            {
+                this._animator.Play("mega_man_jumping", -1, 0);
+            }
+            else
+            {
+                this._animator.SetBool("jumping", true);
+            }
             this._state |= PlayerState.OnJump;
         }
     }
@@ -99,7 +113,7 @@ public class PlayerController : MonoBehaviour
 
     protected void OnTriggerEnter2D(Collider2D collider)
     {
-        if (collider.gameObject.tag == "Wall")
+        if (collider.gameObject.tag == "Wall" && (this._state & PlayerState.OnWall) != PlayerState.OnWall)
         {
             this._gravityScaleBkp = this._body.gravityScale;
             this._body.gravityScale = this._gravityScaleOnWall;
@@ -107,7 +121,7 @@ public class PlayerController : MonoBehaviour
             this._state |= PlayerState.OnWall;
             this._state &= ~PlayerState.OnJump;
         }
-        else if (collider.gameObject.tag == "Ground")
+        else if (collider.gameObject.tag == "Ground" && (this._state & PlayerState.OnGround) != PlayerState.OnGround)
         {
             this._body.gravityScale = this._gravityScaleBkp;
             this._state |= PlayerState.OnGround;
