@@ -105,7 +105,7 @@ public class PlayerController : MonoBehaviour
             this._body.gravityScale = this._gravityScaleOnWall;
             this._collisionWall = collider;
             this._state |= PlayerState.OnWall;
-            //this._state &= ~PlayerState.OnJump;
+            this._state &= ~PlayerState.OnJump;
         }
         else if (collider.gameObject.tag == "Ground")
         {
