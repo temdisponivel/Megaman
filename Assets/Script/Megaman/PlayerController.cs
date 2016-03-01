@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+using UnityEditor;
 
 public class PlayerController : MonoBehaviour
 {
@@ -56,7 +57,7 @@ public class PlayerController : MonoBehaviour
 
         if (this.ShouldJump(out direction))
         {
-            if ((this._state & PlayerState.OnWall) == PlayerState.OnWall)
+            if ((this._state & PlayerState.OnWall) == PlayerState.OnWall && (this._state & PlayerState.OnGround) != PlayerState.OnGround)
             {
                 Vector2 wallPosition = this._collisionWall.transform.position - this.transform.position;
                 if (wallPosition.x >= 0)
@@ -88,7 +89,7 @@ public class PlayerController : MonoBehaviour
             }
         }
 
-        if ((this._state & PlayerState.OnJump) != PlayerState.OnJump)
+        if ((this._state & PlayerState.OnGround) == PlayerState.OnGround)
         {
             this._animator.SetBool("jumping", false);
         }
