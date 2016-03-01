@@ -51,26 +51,25 @@ public class PlayerController : MonoBehaviour
         Vector2 direction;
         if (this.ShouldMove(out direction))
         {
-            this._body.AddForce(direction, ForceMode2D.Impulse);
+            this._body.AddForce(direction, ForceMode2D.Force);
         }
 
         if (this.ShouldJump(out direction))
         {
-            Vector2 sideDirection = Vector2.zero;
             if ((this._state & PlayerState.OnWall) == PlayerState.OnWall)
             {
                 Vector2 wallPosition = this._collisionWall.transform.position - this.transform.position;
                 if (wallPosition.x >= 0)
                 {
-                    this._body.AddForce(Vector2.left * this._velocityJump, ForceMode2D.Impulse);
+                    this._body.AddForce(Vector2.left * this._velocityJump, ForceMode2D.Force);
                 }
                 else
                 {
-                    this._body.AddForce(Vector2.right * this._velocityJump, ForceMode2D.Impulse);
+                    this._body.AddForce(Vector2.right * this._velocityJump, ForceMode2D.Force);
                 }
             }
             this._body.gravityScale = this._gravityScaleBkp;
-            this._body.AddForce(direction, ForceMode2D.Impulse);
+            this._body.AddForce(direction, ForceMode2D.Force);
             this._animator.SetBool("jumping", true);
             this._state |= PlayerState.OnJump;
         }
@@ -142,7 +141,6 @@ public class PlayerController : MonoBehaviour
         if ((this._state & PlayerState.OnWall) == PlayerState.OnWall)
         {
             Vector2 wallPosition = this._collisionWall.transform.position - this.transform.position;
-            Debug.Log(wallPosition);
             if (horizontal > 0 && wallPosition.x < 0 || horizontal < 0 && wallPosition.x > 0)
             {
                 moveDirection = Vector2.right * ((this._velocity * horizontal) - this._body.velocity.x);
