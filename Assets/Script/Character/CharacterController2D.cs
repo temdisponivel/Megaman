@@ -24,19 +24,19 @@ public class CharacterController2D : MonoBehaviour
     virtual protected void Update()
     {
         this.HandleCasts();
+        if (Input.GetAxis("Horizontal") > 0)
+        {
+            this.Side = 1;
+        }
+        else if (Input.GetAxis("Horizontal") < 0)
+        {
+            this.Side = -1;
+        }
     }
 
     virtual protected void FixedUpdate()
     {
         this.MovePlayer();
-        if (this._body.velocity.x >= 0)
-        {
-            this.Side = 1;
-        }
-        else
-        {
-            this.Side = -1;
-        }
     }
     #endregion
 
@@ -71,8 +71,13 @@ public class CharacterController2D : MonoBehaviour
     {
         bool collisionOnSide = false;
         bool collisionOnBottom = false;
-        RaycastHit2D hit = Physics2D.Raycast(this.transform.position, Vector2.right);
-        if (hit.collider != null && hit.distance <= this._collider.bounds.extents.x)
+
+        Vector2 origin = this.transform.position;
+        origin.y += this._collider.bounds.extents.y / 2;
+        RaycastHit2D hitA = Physics2D.Raycast(origin, Vector2.right);
+        origin.y -= this._collider.bounds.extents.y;
+        RaycastHit2D hitB = Physics2D.Raycast(origin, Vector2.right);
+        if ((hitA.collider != null && hitA.distance <= this._collider.bounds.extents.x) || (hitB.collider != null && hitB.distance <= this._collider.bounds.extents.x))
         {
             collisionOnSide = true;
             this._wallOnRight = true;
@@ -80,8 +85,12 @@ public class CharacterController2D : MonoBehaviour
         }
         else
         {
-            hit = Physics2D.Raycast(this.transform.position, Vector2.left);
-            if (hit.collider != null && hit.distance <= this._collider.bounds.extents.x)
+            origin = this.transform.position;
+            origin.y += this._collider.bounds.extents.y / 2;
+            hitA = Physics2D.Raycast(origin, Vector2.left);
+            origin.y -= this._collider.bounds.extents.y;
+            hitB = Physics2D.Raycast(origin, Vector2.left);
+            if ((hitA.collider != null && hitA.distance <= this._collider.bounds.extents.x) || (hitB.collider != null && hitB.distance <= this._collider.bounds.extents.x))
             {
                 collisionOnSide = true;
                 this._wallOnRight = false;
@@ -89,21 +98,16 @@ public class CharacterController2D : MonoBehaviour
             }
         }
 
-        Vector2 origin = this.transform.position;
-        origin.x += this._collider.bounds.extents.x / 2;
-        hit = Physics2D.Raycast(origin, Vector2.down);
-        if (hit.collider != null && hit.distance <= this._collider.bounds.extents.y)
-        {
-            collisionOnBottom = true;
-        }
         origin = this.transform.position;
-        origin.x -= this._collider.bounds.extents.x / 2;
-        hit = Physics2D.Raycast(origin, Vector2.down);
-        if (hit.collider != null && hit.distance <= this._collider.bounds.extents.y)
+        origin.x += this._collider.bounds.extents.x / 2;
+        hitA = Physics2D.Raycast(origin, Vector2.down);
+        origin.x -= this._collider.bounds.extents.x;
+        hitB = Physics2D.Raycast(origin, Vector2.down);
+        if ((hitA.collider != null && hitA.distance <= this._collider.bounds.extents.y) || (hitB.collider != null && hitB.distance <= this._collider.bounds.extents.y))
         {
             collisionOnBottom = true;
         }
-        
+
         if (collisionOnBottom)
         {
             this.AddState(CharacterState.OnGround);

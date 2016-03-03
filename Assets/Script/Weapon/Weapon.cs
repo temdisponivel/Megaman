@@ -21,10 +21,20 @@ public class Weapon : MonoBehaviour
     {
         Vector2 position, direction;
         Quaternion rotation;
-        this.ShouldShoot(out position, out direction, out rotation);
-        GameObject bullet = GameObject.Instantiate(this._bullet, position, rotation) as GameObject;
-        bullet.GetComponent<Rigidbody2D>().AddForce(direction * this._force, ForceMode2D.Impulse);
-        this._lastShootTime = Time.time;
+        if (this.ShouldShoot(out position, out direction, out rotation))
+        {
+            GameObject bullet = GameObject.Instantiate(this._bullet, position, rotation) as GameObject;
+            bullet.GetComponent<Rigidbody2D>().AddForce(direction * this._force, ForceMode2D.Impulse);
+            this._lastShootTime = Time.time;
+        }
+        if (Input.GetButton("Fire"))
+        {
+            this._character.AddState(CharacterState.Shooting);
+        }
+        else
+        {
+            this._character.RemoveState(CharacterState.Shooting);
+        }
     }
 
     virtual protected bool ShouldShoot(out Vector2 position, out Vector2 direction, out Quaternion rotation)
