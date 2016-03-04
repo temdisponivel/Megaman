@@ -6,9 +6,9 @@ using System;
 [Flags]
 public enum CharacterState
 {
-    Initialized = 1,
-    OnGround = 2,
-    OnJump = 4,
-    OnWall = 8,
-    Shooting = 16,
+    Initialized = 0x01,
+    OnGround = 0x02,
+    OnJump = 0x04,
+    OnWall = 0x08,
+    Shooting = 0x16,
 }

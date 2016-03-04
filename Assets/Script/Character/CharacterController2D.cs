@@ -45,12 +45,19 @@ public class CharacterController2D : MonoBehaviour
         Vector2 direction;
         if (this.ShouldMove(out direction))
         {
-            this._body.AddForce(direction, ForceMode2D.Impulse);
+            if (this.GetState(CharacterState.OnGround))
+            {
+                this._body.velocity += direction;
+            }
+            else
+            {
+                this._body.AddForce(direction, ForceMode2D.Force);
+            }
         }
 
         if (this.ShouldJump(out direction))
         {
-            this._body.AddForce(direction, ForceMode2D.Impulse);
+            this._body.velocity += direction;
             this.AddState(CharacterState.OnJump);
         }
     }
@@ -136,24 +143,25 @@ public class CharacterController2D : MonoBehaviour
     {
         bool changed = (this._state & state) != state;
         this._state |= state;
-        switch (state)
-        {
-            case CharacterState.OnGround:
-                this.RemoveState(CharacterState.OnJump);
-                break;
-            case CharacterState.OnJump:
-                this.RemoveState(CharacterState.OnGround);
-                this.RemoveState(CharacterState.OnWall);
-                break;
-            case CharacterState.OnWall:
-                this.RemoveState(CharacterState.OnJump);
-                break;
-            case CharacterState.Shooting:
-            default:
-                break;
-        }
         if (changed)
         {
+            switch (state)
+            {
+                case CharacterState.OnGround:
+                    Debug.Log("ON GROUND");
+                    this.RemoveState(CharacterState.OnJump);
+                    break;
+                case CharacterState.OnJump:
+                    Debug.Log("ON JUMP");
+                    this.RemoveState(CharacterState.OnGround);
+                    this.RemoveState(CharacterState.OnWall);
+                    break;
+                case CharacterState.OnWall:
+                    break;
+                case CharacterState.Shooting:
+                default:
+                    break;
+            }
             this.OnStateChange(state, true);
         }
     }
@@ -163,6 +171,20 @@ public class CharacterController2D : MonoBehaviour
         bool changed = (this._state & state) == state;
         if (changed)
         {
+            switch (state)
+            {
+                case CharacterState.OnGround:
+                    Debug.Log("OUT GROUND");
+                    break;
+                case CharacterState.OnJump:
+                    Debug.Log("OUT JUMP");
+                    break;
+                case CharacterState.OnWall:
+                    Debug.Log("OUT WALL");
+                    break;
+                default:
+                    break;
+            }
             this._state &= ~state;
             this.OnStateChange(state, false);
         }
