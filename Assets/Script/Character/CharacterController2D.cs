@@ -11,7 +11,7 @@ public class CharacterController2D : MonoBehaviour
     protected Rigidbody2D _body = null;
     protected BoxCollider2D _collider = null;
     private CharacterState _state = CharacterState.OnGround;
-    protected bool _wallOnRight = false;
+    public bool WallOnRight { get; set; }
     public int Side { get; set; }
 
     #region lifecyle
@@ -87,7 +87,7 @@ public class CharacterController2D : MonoBehaviour
         if ((hitA.collider != null && hitA.distance <= this._collider.bounds.extents.x) || (hitB.collider != null && hitB.distance <= this._collider.bounds.extents.x))
         {
             collisionOnSide = true;
-            this._wallOnRight = true;
+            this.WallOnRight = true;
             this.Side = 1;
         }
         else
@@ -100,7 +100,7 @@ public class CharacterController2D : MonoBehaviour
             if ((hitA.collider != null && hitA.distance <= this._collider.bounds.extents.x) || (hitB.collider != null && hitB.distance <= this._collider.bounds.extents.x))
             {
                 collisionOnSide = true;
-                this._wallOnRight = false;
+                this.WallOnRight = false;
                 this.Side = -1;
             }
         }
@@ -148,11 +148,9 @@ public class CharacterController2D : MonoBehaviour
             switch (state)
             {
                 case CharacterState.OnGround:
-                    Debug.Log("ON GROUND");
                     this.RemoveState(CharacterState.OnJump);
                     break;
                 case CharacterState.OnJump:
-                    Debug.Log("ON JUMP");
                     this.RemoveState(CharacterState.OnGround);
                     this.RemoveState(CharacterState.OnWall);
                     break;
@@ -171,20 +169,6 @@ public class CharacterController2D : MonoBehaviour
         bool changed = (this._state & state) == state;
         if (changed)
         {
-            switch (state)
-            {
-                case CharacterState.OnGround:
-                    Debug.Log("OUT GROUND");
-                    break;
-                case CharacterState.OnJump:
-                    Debug.Log("OUT JUMP");
-                    break;
-                case CharacterState.OnWall:
-                    Debug.Log("OUT WALL");
-                    break;
-                default:
-                    break;
-            }
             this._state &= ~state;
             this.OnStateChange(state, false);
         }

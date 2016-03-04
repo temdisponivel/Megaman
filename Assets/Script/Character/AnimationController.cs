@@ -53,7 +53,6 @@ public class AnimationController : MonoBehaviour
                 if (!included || !this._character.GetState(CharacterState.OnGround))
                 {
                     this._animator.SetBool("slide", included);
-                    break;
                 }
                 break;
             case CharacterState.Shooting:
@@ -61,6 +60,12 @@ public class AnimationController : MonoBehaviour
                 break;
             case CharacterState.OnGround:
                 this._animator.SetBool("slide", false);
+                break;
+            case CharacterState.Dashing:
+                if (included)
+                {
+                    this._animator.SetTrigger("dash");
+                }
                 break;
             default:
                 break;

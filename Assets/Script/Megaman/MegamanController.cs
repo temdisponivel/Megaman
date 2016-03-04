@@ -3,6 +3,24 @@ using System.Collections;
 
 public class MegamanController : CharacterController2D
 {
+    public float _dashImpulse = 1f;
+    public float _dashCoolDown = 1f;
+    protected float _lastDashTime = 0f;
+
+    protected override void FixedUpdate()
+    {
+        base.FixedUpdate();
+        if (Input.GetButtonDown("Dash"))
+        {
+            if (Time.time - this._lastDashTime >= this._dashCoolDown && !this.GetState(CharacterState.Dashing))
+            {
+                this._body.velocity += Vector2.right * this.Side * this._dashImpulse;
+                this._lastDashTime = Time.time;
+                this.AddState(CharacterState.Dashing);
+            }
+        }
+    }
+    
     override protected bool ShouldMove(out Vector2 moveDirection)
     {
         moveDirection = Vector2.zero;
@@ -10,7 +28,7 @@ public class MegamanController : CharacterController2D
         float velocity = this.GetState(CharacterState.OnGround) ? this._velocity : this._velocityOnAir;
         if (horizontal != 0)
         {
-            moveDirection = Vector2.right * ((velocity * horizontal) - this._body.velocity.x);
+            moveDirection = Vector2.right * ((velocity * horizontal) - (this.GetState(CharacterState.Dashing) ? this._body.velocity.x / 2 : this._body.velocity.x));
         }
         return horizontal != 0;
     }
@@ -21,8 +39,8 @@ public class MegamanController : CharacterController2D
         jumpDirection = Vector2.up * this._velocityJump;
         if (jump && this.GetState(CharacterState.OnWall) && !this.GetState(CharacterState.OnGround))
         {
-            jumpDirection = ((this._wallOnRight ? Vector2.left : Vector2.right) * 3) + (Vector2.up * this._velocityJump * 1.5f);
-            this.Side = this._wallOnRight ? -1 : 1;
+            jumpDirection = ((this.WallOnRight ? Vector2.left : Vector2.right) * 3) + (Vector2.up * this._velocityJump * 1.3f);
+            this.Side = this.WallOnRight ? -1 : 1;
         }
         return jump;
     }

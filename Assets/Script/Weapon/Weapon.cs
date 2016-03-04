@@ -3,6 +3,7 @@ using System.Collections;
 
 public class Weapon : MonoBehaviour
 {
+    public Vector2 _distance = Vector2.right;
     public CharacterController2D _character = null;
     public GameObject _bullet = null;
     public float _force = 1;
@@ -21,7 +22,7 @@ public class Weapon : MonoBehaviour
     {
         Vector2 position, direction;
         Quaternion rotation;
-        if (this.ShouldShoot(out position, out direction, out rotation))
+        if (this._bullet != null && this.ShouldShoot(out position, out direction, out rotation))
         {
             GameObject bullet = GameObject.Instantiate(this._bullet, position, rotation) as GameObject;
             bullet.GetComponent<Rigidbody2D>().AddForce(direction * this._force, ForceMode2D.Impulse);
@@ -39,9 +40,10 @@ public class Weapon : MonoBehaviour
 
     virtual protected bool ShouldShoot(out Vector2 position, out Vector2 direction, out Quaternion rotation)
     {
-        position = this.transform.position;
+        float side = (this._character.GetState(CharacterState.OnWall) ? (this._character.WallOnRight ? -1 : 1) : this._character.Side);
+        position = (Vector2)this.transform.position + this._distance * side;
         rotation = this.transform.rotation;
-        direction = Vector2.right * this._character.Side;
+        direction = Vector2.right * side;
         return Input.GetButton("Fire") && Time.time - this._lastShootTime >= _cooldDown;
     }
 }

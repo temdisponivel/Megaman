@@ -16,8 +16,9 @@ GameObject:
   - 61: {fileID: 6167128}
   - 114: {fileID: 11469044}
   - 114: {fileID: 11414158}
+  - 114: {fileID: 11423400}
   m_Layer: 2
-  m_Name: Megaman
+  m_Name: megaman
   m_TagString: Player
   m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -123,6 +124,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _character: {fileID: 11469044}
+--- !u!114 &11423400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 550a5eff5ee628e42a5ab1e91995e3c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _distance: {x: 1, y: 0}
+  _character: {fileID: 11469044}
+  _bullet: {fileID: 107736, guid: 47a8eab47f1b6f14996114b6c17bbd41, type: 2}
+  _force: 25
+  _cooldDown: 0.5
 --- !u!114 &11469044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -137,6 +154,8 @@ MonoBehaviour:
   _velocity: 5
   _velocityOnAir: 7
   _velocityJump: 7
+  _dashImpulse: 10
+  _dashCoolDown: 1
 --- !u!212 &21267022
 SpriteRenderer:
   m_ObjectHideFlags: 1
