@@ -21,7 +21,7 @@ public class MegamanController : CharacterController2D
         jumpDirection = Vector2.up * this._velocityJump;
         if (jump && this.GetState(CharacterState.OnWall) && !this.GetState(CharacterState.OnGround))
         {
-            jumpDirection = ((this._wallOnRight ? Vector2.left : Vector2.right) * 2) + (Vector2.up * 10);
+            jumpDirection = ((this._wallOnRight ? Vector2.left : Vector2.right) * 3) + (Vector2.up * this._velocityJump * 1.5f);
             this.Side = this._wallOnRight ? -1 : 1;
         }
         return jump;
