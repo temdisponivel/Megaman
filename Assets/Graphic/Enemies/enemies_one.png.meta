@@ -1,0 +1,2074 @@
+fileFormatVersion: 2
+guid: 4ccab760d00cec040952b8078a9a350f
+timeCreated: 1457481382
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: enemies_one_0
+    21300002: enemies_one_1
+    21300004: enemies_one_2
+    21300006: enemies_one_3
+    21300008: enemies_one_4
+    21300010: enemies_one_5
+    21300012: enemies_one_6
+    21300014: enemies_one_7
+    21300016: enemies_one_8
+    21300018: enemies_one_9
+    21300020: enemies_one_10
+    21300022: enemies_one_11
+    21300024: enemies_one_12
+    21300026: enemies_one_13
+    21300028: enemies_one_14
+    21300030: enemies_one_15
+    21300032: enemies_one_16
+    21300034: enemies_one_17
+    21300036: enemies_one_18
+    21300038: enemies_one_19
+    21300040: enemies_one_20
+    21300042: enemies_one_21
+    21300044: enemies_one_22
+    21300046: enemies_one_23
+    21300048: enemies_one_24
+    21300050: enemies_one_25
+    21300052: enemies_one_26
+    21300054: enemies_one_27
+    21300056: enemies_one_28
+    21300058: enemies_one_29
+    21300060: enemies_one_30
+    21300062: enemies_one_31
+    21300064: enemies_one_32
+    21300066: enemies_one_33
+    21300068: enemies_one_34
+    21300070: enemies_one_35
+    21300072: enemies_one_36
+    21300074: enemies_one_37
+    21300076: enemies_one_38
+    21300078: enemies_one_39
+    21300080: enemies_one_40
+    21300082: enemies_one_41
+    21300084: enemies_one_42
+    21300086: enemies_one_43
+    21300088: enemies_one_44
+    21300090: enemies_one_45
+    21300092: enemies_one_46
+    21300094: enemies_one_47
+    21300096: enemies_one_48
+    21300098: enemies_one_49
+    21300100: enemies_one_50
+    21300102: enemies_one_51
+    21300104: enemies_one_52
+    21300106: enemies_one_53
+    21300108: enemies_one_54
+    21300110: enemies_one_55
+    21300112: enemies_one_56
+    21300114: enemies_one_57
+    21300116: enemies_one_58
+    21300118: enemies_one_59
+    21300120: enemies_one_60
+    21300122: enemies_one_61
+    21300124: enemies_one_62
+    21300126: enemies_one_63
+    21300128: enemies_one_64
+    21300130: enemies_one_65
+    21300132: enemies_one_66
+    21300134: enemies_one_67
+    21300136: enemies_one_68
+    21300138: enemies_one_69
+    21300140: enemies_one_70
+    21300142: enemies_one_71
+    21300144: enemies_one_72
+    21300146: enemies_one_73
+    21300148: enemies_one_74
+    21300150: enemies_one_75
+    21300152: enemies_one_76
+    21300154: enemies_one_77
+    21300156: enemies_one_78
+    21300158: enemies_one_79
+    21300160: enemies_one_80
+    21300162: enemies_one_81
+    21300164: enemies_one_82
+    21300166: enemies_one_83
+    21300168: enemies_one_84
+    21300170: enemies_one_85
+    21300172: enemies_one_86
+    21300174: enemies_one_87
+    21300176: enemies_one_88
+    21300178: enemies_one_89
+    21300180: enemies_one_90
+    21300182: enemies_one_91
+    21300184: enemies_one_92
+    21300186: enemies_one_93
+    21300188: enemies_one_94
+    21300190: enemies_one_95
+    21300192: enemies_one_96
+    21300194: enemies_one_97
+    21300196: enemies_one_98
+    21300198: enemies_one_99
+    21300200: enemies_one_100
+    21300202: enemies_one_101
+    21300204: enemies_one_102
+    21300206: enemies_one_103
+    21300208: enemies_one_104
+    21300210: enemies_one_105
+    21300212: enemies_one_106
+    21300214: enemies_one_107
+    21300216: enemies_one_108
+    21300218: enemies_one_109
+    21300220: enemies_one_110
+    21300222: enemies_one_111
+    21300224: enemies_one_112
+    21300226: enemies_one_113
+    21300228: enemies_one_114
+    21300230: enemies_one_115
+    21300232: enemies_one_116
+    21300234: enemies_one_117
+    21300236: enemies_one_118
+    21300238: enemies_one_119
+    21300240: enemies_one_120
+    21300242: enemies_one_121
+    21300244: enemies_one_122
+    21300246: enemies_one_123
+    21300248: enemies_one_124
+    21300250: enemies_one_125
+    21300252: enemies_one_126
+    21300254: enemies_one_127
+    21300256: enemies_one_128
+    21300258: enemies_one_129
+    21300260: enemies_one_130
+    21300262: enemies_one_131
+    21300264: enemies_one_132
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 30
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: enemies_one_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1247
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 18}
+        - {x: -13.5, y: 18}
+        - {x: -17.5, y: 5}
+        - {x: -17.5, y: -5}
+        - {x: -10.5, y: -16}
+        - {x: -8.5, y: -18}
+        - {x: 3.5, y: -18}
+        - {x: 17.5, y: -5}
+        - {x: 17.5, y: 1}
+        - {x: 12.5, y: 3}
+    - name: enemies_one_1
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1246
+        width: 36
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 19}
+        - {x: -18, y: -9}
+        - {x: -11, y: -19}
+        - {x: 3, y: -19}
+        - {x: 18, y: -9}
+        - {x: 18, y: 19}
+    - name: enemies_one_2
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 1245
+        width: 25
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_3
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 1247
+        width: 35
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.5, y: 18.5}
+        - {x: -14.5, y: 18.5}
+        - {x: -17.5, y: 8.5}
+        - {x: -17.5, y: -6.5}
+        - {x: -14.5, y: -18.5}
+        - {x: 4.5, y: -18.5}
+        - {x: 17.5, y: -4.5}
+        - {x: 17.5, y: 1.5}
+        - {x: 12.5, y: 3.5}
+    - name: enemies_one_4
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1246
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 19.5}
+        - {x: -18, y: 17.5}
+        - {x: -18, y: -10.5}
+        - {x: -16, y: -19.5}
+        - {x: 14, y: -19.5}
+        - {x: 18, y: -4.5}
+        - {x: 18, y: 19.5}
+    - name: enemies_one_5
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1245
+        width: 25
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_6
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1246
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 19}
+        - {x: -16.5, y: 10}
+        - {x: -16.5, y: -8}
+        - {x: -6.5, y: -19}
+        - {x: 8.5, y: -19}
+        - {x: 16.5, y: -5}
+        - {x: 16.5, y: 9}
+        - {x: -0.5, y: 19}
+    - name: enemies_one_7
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 1245
+        width: 36
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 20}
+        - {x: -18, y: -7}
+        - {x: -7, y: -20}
+        - {x: 5, y: -20}
+        - {x: 18, y: -3}
+        - {x: 18, y: 16}
+        - {x: 16, y: 20}
+    - name: enemies_one_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1244
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_9
+      rect:
+        serializedVersion: 2
+        x: 433
+        y: 1276
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_10
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1260
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_11
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1243
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1199
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_13
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1199
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_14
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1199
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_15
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1199
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_16
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1199
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_17
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1149
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_18
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1149
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_19
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1149
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_20
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1149
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_21
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1149
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_22
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1099
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_23
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1099
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_24
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1099
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_25
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 1099
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_26
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1099
+        width: 29
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_27
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 998
+        width: 125
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.5, y: 42.5}
+        - {x: -62.5, y: 20.5}
+        - {x: -44.5, y: -42.5}
+        - {x: 59.5, y: -42.5}
+        - {x: 62.5, y: -38.5}
+        - {x: 62.5, y: 42.5}
+    - name: enemies_one_28
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 997
+        width: 111
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.5, y: 43.5}
+        - {x: -55.5, y: -33.5}
+        - {x: -41.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 55.5, y: -41.5}
+        - {x: 55.5, y: 36.5}
+        - {x: 11.5, y: 43.5}
+    - name: enemies_one_29
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 997
+        width: 111
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 43.5}
+        - {x: -54.5, y: 43.5}
+        - {x: -55.5, y: 39.5}
+        - {x: -55.5, y: -43.5}
+        - {x: 55.5, y: -43.5}
+        - {x: 55.5, y: 20.5}
+        - {x: 53.5, y: 31.5}
+    - name: enemies_one_30
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 873
+        width: 125
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.5, y: 42.5}
+        - {x: -62.5, y: 29.5}
+        - {x: -59.5, y: 28.5}
+        - {x: -54.5, y: -2.5}
+        - {x: -41.5, y: -36.5}
+        - {x: -29.5, y: -42.5}
+        - {x: 56.5, y: -42.5}
+        - {x: 62.5, y: -40.5}
+        - {x: 62.5, y: 42.5}
+    - name: enemies_one_31
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 872
+        width: 111
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.5, y: 43.5}
+        - {x: -55.5, y: -40.5}
+        - {x: -52.5, y: -43.5}
+        - {x: 55.5, y: -43.5}
+        - {x: 55.5, y: 36.5}
+        - {x: 12.5, y: 43.5}
+    - name: enemies_one_32
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 872
+        width: 111
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 25.5, y: 43.5}
+        - {x: -15.5, y: 43.5}
+        - {x: -35.5, y: 34.5}
+        - {x: -33.5, y: 28.5}
+        - {x: -55.5, y: 7.5}
+        - {x: -55.5, y: -38.5}
+        - {x: -40.5, y: -43.5}
+        - {x: 48.5, y: -43.5}
+        - {x: 55.5, y: -41.5}
+        - {x: 55.5, y: 24.5}
+        - {x: 53.5, y: 31.5}
+    - name: enemies_one_33
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 860
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_34
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 859
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_35
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 859
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_36
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 748
+        width: 125
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -62.5, y: 42.5}
+        - {x: -62.5, y: 20.5}
+        - {x: -44.5, y: -42.5}
+        - {x: 59.5, y: -42.5}
+        - {x: 62.5, y: -38.5}
+        - {x: 62.5, y: 42.5}
+    - name: enemies_one_37
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 747
+        width: 111
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -55.5, y: 43.5}
+        - {x: -55.5, y: -33.5}
+        - {x: -41.5, y: -43.5}
+        - {x: 49.5, y: -43.5}
+        - {x: 55.5, y: -41.5}
+        - {x: 55.5, y: 36.5}
+        - {x: 11.5, y: 43.5}
+    - name: enemies_one_38
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 747
+        width: 111
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 31.5, y: 43.5}
+        - {x: -54.5, y: 43.5}
+        - {x: -55.5, y: 39.5}
+        - {x: -55.5, y: -43.5}
+        - {x: 55.5, y: -43.5}
+        - {x: 55.5, y: 20.5}
+        - {x: 53.5, y: 31.5}
+    - name: enemies_one_39
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 728
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_40
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 727
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_41
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 727
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_42
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 641
+        width: 111
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -30.5, y: 24}
+        - {x: -55.5, y: 6}
+        - {x: -55.5, y: -11}
+        - {x: -51.5, y: -24}
+        - {x: 55.5, y: -24}
+        - {x: 55.5, y: 18}
+        - {x: 50.5, y: 24}
+    - name: enemies_one_43
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 670
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_44
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 662
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_45
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 649
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_46
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 597
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 18}
+        - {x: -31, y: 11}
+        - {x: -34, y: 3}
+        - {x: -34, y: -18}
+        - {x: 33, y: -18}
+        - {x: 34, y: -16}
+        - {x: 34, y: 15}
+        - {x: 24, y: 18}
+    - name: enemies_one_47
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 597
+        width: 78
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 18}
+        - {x: -28, y: 14}
+        - {x: -33, y: 9}
+        - {x: -39, y: -1}
+        - {x: -39, y: -18}
+        - {x: 31, y: -18}
+        - {x: 39, y: -8}
+        - {x: 39, y: 10}
+        - {x: 22, y: 18}
+    - name: enemies_one_48
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 597
+        width: 78
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 18}
+        - {x: -28, y: 15}
+        - {x: -39, y: 2}
+        - {x: -39, y: -17}
+        - {x: -37, y: -18}
+        - {x: 27, y: -18}
+        - {x: 39, y: -7}
+        - {x: 39, y: 10}
+        - {x: 20, y: 18}
+    - name: enemies_one_49
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 597
+        width: 68
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 18}
+        - {x: -23, y: 15}
+        - {x: -34, y: 2}
+        - {x: -34, y: -18}
+        - {x: 34, y: -18}
+        - {x: 34, y: 14}
+        - {x: 27, y: 18}
+      - - {x: -31, y: 2}
+        - {x: -31, y: 5}
+        - {x: -34, y: 6}
+        - {x: -34, y: 1}
+    - name: enemies_one_50
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 598
+        width: 56
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 17.5}
+        - {x: -28, y: 10.5}
+        - {x: -28, y: -17.5}
+        - {x: 28, y: -17.5}
+        - {x: 28, y: 17.5}
+    - name: enemies_one_51
+      rect:
+        serializedVersion: 2
+        x: 428
+        y: 612
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_52
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 554
+        width: 66
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_53
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 555
+        width: 66
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_54
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 555
+        width: 64
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_55
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 555
+        width: 64
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_56
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 548
+        width: 57
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 17.5}
+        - {x: -28.5, y: 9.5}
+        - {x: -28.5, y: -17.5}
+        - {x: 25.5, y: -17.5}
+        - {x: 28.5, y: -14.5}
+        - {x: 28.5, y: 11.5}
+        - {x: 24.5, y: 17.5}
+    - name: enemies_one_57
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 487
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 28.5}
+        - {x: -21, y: 17.5}
+        - {x: -21, y: -28.5}
+        - {x: 21, y: -28.5}
+        - {x: 21, y: 27.5}
+        - {x: 20, y: 28.5}
+    - name: enemies_one_58
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 486
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 29}
+        - {x: -21, y: 24}
+        - {x: -21, y: -29}
+        - {x: 21, y: -29}
+        - {x: 21, y: 29}
+    - name: enemies_one_59
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 489
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 15, y: -10.5}
+        - {x: 12, y: -10.5}
+        - {x: 15, y: -10.5}
+        - {x: 22, y: -5.5}
+        - {x: 22, y: 26.5}
+        - {x: -20, y: 26.5}
+        - {x: -22, y: 17.5}
+        - {x: -22, y: -26.5}
+        - {x: 22, y: -26.5}
+        - {x: 22, y: -20.5}
+        - {x: 20, y: -15.5}
+    - name: enemies_one_60
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 490
+        width: 44
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 25}
+        - {x: -22, y: 14}
+        - {x: -22, y: -25}
+        - {x: 22, y: -25}
+        - {x: 22, y: 20}
+        - {x: 21, y: 23}
+        - {x: 18, y: 25}
+    - name: enemies_one_61
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 491
+        width: 44
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 24}
+        - {x: -22, y: 10}
+        - {x: -22, y: -24}
+        - {x: 22, y: -24}
+        - {x: 22, y: 16}
+        - {x: 17, y: 24}
+    - name: enemies_one_62
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 492
+        width: 44
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 19, y: 23.5}
+        - {x: -17, y: 23.5}
+        - {x: -22, y: 9.5}
+        - {x: -22, y: -23.5}
+        - {x: 22, y: -23.5}
+        - {x: 22, y: 22.5}
+    - name: enemies_one_63
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 491
+        width: 52
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 24}
+        - {x: -26, y: -24}
+        - {x: 26, y: -24}
+        - {x: 26, y: 14}
+        - {x: 23, y: 24}
+    - name: enemies_one_64
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 526
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_65
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 527
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_66
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 527
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_67
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 494
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_68
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 493
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_69
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 493
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_70
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 414
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 26}
+        - {x: -3, y: 24}
+        - {x: -5, y: 29}
+        - {x: -8, y: 31}
+        - {x: -22, y: 31}
+        - {x: -22, y: -31}
+        - {x: 22, y: -31}
+        - {x: 22, y: 15}
+        - {x: 20, y: 31}
+        - {x: -3, y: 31}
+        - {x: -4, y: 29}
+    - name: enemies_one_71
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 414
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12, y: 31}
+        - {x: -21, y: 11}
+        - {x: -22, y: 3}
+        - {x: -22, y: -31}
+        - {x: 22, y: -31}
+        - {x: 22, y: 31}
+    - name: enemies_one_72
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 414
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 31}
+        - {x: -4, y: 29}
+        - {x: -4, y: 26}
+        - {x: -3, y: 24}
+        - {x: -5, y: 29}
+        - {x: -8, y: 31}
+        - {x: -22, y: 31}
+        - {x: -22, y: -31}
+        - {x: 22, y: -31}
+        - {x: 22, y: 9}
+        - {x: 15, y: 31}
+    - name: enemies_one_73
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 414
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 26}
+        - {x: -3, y: 24}
+        - {x: -5, y: 29}
+        - {x: -8, y: 31}
+        - {x: -22, y: 31}
+        - {x: -22, y: -31}
+        - {x: 22, y: -31}
+        - {x: 22, y: 15}
+        - {x: 20, y: 31}
+        - {x: -3, y: 31}
+        - {x: -4, y: 29}
+    - name: enemies_one_74
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 414
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 31}
+        - {x: -3, y: 29}
+        - {x: -3, y: 26}
+        - {x: -2, y: 24}
+        - {x: -4, y: 29}
+        - {x: -7, y: 31}
+        - {x: -22, y: 31}
+        - {x: -22, y: -31}
+        - {x: 22, y: -31}
+        - {x: 22, y: 14}
+        - {x: 19, y: 31}
+    - name: enemies_one_75
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 414
+        width: 50
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 31}
+        - {x: 1, y: 26}
+        - {x: 2, y: 24}
+        - {x: 0, y: 29}
+        - {x: -3, y: 31}
+        - {x: -16, y: 31}
+        - {x: -17, y: 30}
+        - {x: -25, y: 13}
+        - {x: -25, y: -31}
+        - {x: 25, y: -31}
+        - {x: 25, y: 29}
+        - {x: 19, y: 31}
+    - name: enemies_one_76
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 417
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_77
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 414
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2, y: 31}
+        - {x: -3, y: 29}
+        - {x: -3, y: 26}
+        - {x: -2, y: 24}
+        - {x: -4, y: 29}
+        - {x: -7, y: 31}
+        - {x: -22, y: 31}
+        - {x: -22, y: -31}
+        - {x: 22, y: -31}
+        - {x: 22, y: 15}
+        - {x: 16, y: 31}
+    - name: enemies_one_78
+      rect:
+        serializedVersion: 2
+        x: 379
+        y: 413
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_79
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 413
+        width: 50
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1, y: 32}
+        - {x: 0, y: 30}
+        - {x: 0, y: 27}
+        - {x: 1, y: 25}
+        - {x: -1, y: 30}
+        - {x: -4, y: 32}
+        - {x: -20, y: 32}
+        - {x: -25, y: 18}
+        - {x: -25, y: -32}
+        - {x: 25, y: -32}
+        - {x: 25, y: 17}
+        - {x: 19, y: 32}
+    - name: enemies_one_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 347
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 18}
+        - {x: -22.5, y: -2}
+        - {x: -17.5, y: -17}
+        - {x: -15.5, y: -18}
+        - {x: 10.5, y: -18}
+        - {x: 16.5, y: -16}
+        - {x: 22.5, y: 5}
+        - {x: 22.5, y: 18}
+    - name: enemies_one_81
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 348
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_82
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 348
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_83
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 347
+        width: 30
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_84
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 347
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_85
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 345
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_86
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 343
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_87
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 341
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_88
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 297
+        width: 45
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 18}
+        - {x: -22.5, y: 1}
+        - {x: -18.5, y: -18}
+        - {x: 13.5, y: -18}
+        - {x: 22.5, y: -2}
+        - {x: 22.5, y: 18}
+    - name: enemies_one_89
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 298
+        width: 36
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 17.5}
+        - {x: -18, y: 16.5}
+        - {x: -18, y: -1.5}
+        - {x: -11, y: -14.5}
+        - {x: -8, y: -17.5}
+        - {x: 17, y: -17.5}
+        - {x: 18, y: -15.5}
+        - {x: 18, y: 17.5}
+    - name: enemies_one_90
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 298
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_91
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 321
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_92
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 298
+        width: 29
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_93
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 298
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_94
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 298
+        width: 27
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_95
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 240
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_96
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 240
+        width: 32
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: -25.5}
+        - {x: 16, y: -25.5}
+        - {x: 16, y: -3.5}
+        - {x: 12, y: 24.5}
+        - {x: 11, y: 25.5}
+        - {x: -12, y: 25.5}
+        - {x: -16, y: 24.5}
+    - name: enemies_one_97
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 240
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_98
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 240
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.5, y: 25}
+        - {x: -16.5, y: 7}
+        - {x: -12.5, y: 4}
+        - {x: -9.5, y: 3}
+        - {x: -2.5, y: 3}
+        - {x: -8.5, y: 3}
+        - {x: -14.5, y: 1}
+        - {x: -16.5, y: -2}
+        - {x: -16.5, y: -15}
+        - {x: -12.5, y: -16}
+        - {x: -9.5, y: -14}
+        - {x: -4.5, y: -25}
+        - {x: 16.5, y: -25}
+        - {x: 16.5, y: 19}
+        - {x: 4.5, y: 25}
+    - name: enemies_one_99
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 240
+        width: 53
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.5, y: 25.5}
+        - {x: -11.5, y: 25.5}
+        - {x: -17.5, y: 22.5}
+        - {x: -26.5, y: -9.5}
+        - {x: -26.5, y: -25.5}
+        - {x: -17.5, y: -25.5}
+        - {x: 3.5, y: -10.5}
+        - {x: 8.5, y: -24.5}
+        - {x: 9.5, y: -25.5}
+        - {x: 26.5, y: -25.5}
+        - {x: 26.5, y: -4.5}
+        - {x: 15.5, y: 22.5}
+    - name: enemies_one_100
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 179
+        width: 42
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2, y: -26}
+        - {x: 15, y: -26}
+        - {x: 20, y: -25}
+        - {x: 21, y: -23}
+        - {x: 21, y: 21}
+        - {x: 14, y: 26}
+        - {x: -21, y: 26}
+        - {x: -21, y: -26}
+        - {x: -2, y: -26}
+        - {x: 4, y: -2}
+        - {x: -1, y: -25}
+    - name: enemies_one_101
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 180
+        width: 30
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_102
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 180
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17, y: 25}
+        - {x: -17, y: 7}
+        - {x: -14, y: 4}
+        - {x: -11, y: 3}
+        - {x: -4, y: 3}
+        - {x: -5, y: 3}
+        - {x: -11, y: 1}
+        - {x: -17, y: -2}
+        - {x: -17, y: -6}
+        - {x: -14, y: -25}
+        - {x: 8, y: -25}
+        - {x: 17, y: -9}
+        - {x: 17, y: 14}
+        - {x: 8, y: 25}
+    - name: enemies_one_103
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 180
+        width: 40
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 25.5}
+        - {x: -15, y: 20.5}
+        - {x: -15, y: 7.5}
+        - {x: -8, y: 2.5}
+        - {x: -20, y: -14.5}
+        - {x: -20, y: -25.5}
+        - {x: 20, y: -25.5}
+        - {x: 20, y: -13.5}
+        - {x: 12, y: 25.5}
+    - name: enemies_one_104
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 179
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_105
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 97
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.5, y: 18.5}
+        - {x: -17.5, y: 15.5}
+        - {x: -18.5, y: 14.5}
+        - {x: -18.5, y: -12.5}
+        - {x: -13.5, y: -18.5}
+        - {x: 18.5, y: -18.5}
+        - {x: 18.5, y: 16.5}
+        - {x: 12.5, y: 18.5}
+    - name: enemies_one_106
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 98
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: -17.5}
+        - {x: 10.5, y: -17.5}
+        - {x: 17.5, y: -15.5}
+        - {x: 17.5, y: 14.5}
+        - {x: 16.5, y: 17.5}
+        - {x: -17.5, y: 17.5}
+    - name: enemies_one_107
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 98
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 17.5}
+        - {x: -17.5, y: -13.5}
+        - {x: -15.5, y: -17.5}
+        - {x: 11.5, y: -17.5}
+        - {x: 17.5, y: -14.5}
+        - {x: 17.5, y: 11.5}
+        - {x: 15.5, y: 17.5}
+    - name: enemies_one_108
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 99
+        width: 37
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 16}
+        - {x: -17.5, y: 16}
+        - {x: -18.5, y: 15}
+        - {x: -18.5, y: -11}
+        - {x: -13.5, y: -16}
+        - {x: 13.5, y: -16}
+        - {x: 14.5, y: -15}
+        - {x: 18.5, y: -5}
+        - {x: 18.5, y: 7}
+        - {x: 14.5, y: 15}
+    - name: enemies_one_109
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 106
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_110
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 106
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_111
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 106
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_112
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 106
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_113
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 107
+        width: 38
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_114
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 54
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_115
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 54
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_116
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 54
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_117
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 54
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_118
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 54
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_119
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 54
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_120
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 55
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_121
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 55
+        width: 39
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_122
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 7
+        width: 39
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_123
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 6
+        width: 40
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_124
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 6
+        width: 41
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_125
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 6
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_126
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 8
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_127
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 7
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_128
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 11
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_129
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 9
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_130
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 5
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_131
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 20
+        width: 32
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: enemies_one_132
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 0
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

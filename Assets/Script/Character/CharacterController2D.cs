@@ -141,10 +141,11 @@ public class CharacterController2D : MonoBehaviour
 
     virtual public void AddState(CharacterState state)
     {
+        Debug.Log("ALO: " + state);
         bool changed = (this._state & state) != state;
-        this._state |= state;
         if (changed)
         {
+            this._state |= state;
             switch (state)
             {
                 case CharacterState.OnGround:
@@ -154,8 +155,10 @@ public class CharacterController2D : MonoBehaviour
                     this.RemoveState(CharacterState.OnGround);
                     this.RemoveState(CharacterState.OnWall);
                     break;
-                case CharacterState.OnWall:
+                case CharacterState.Initialized:
+                    Debug.Log("ALO");
                     break;
+                case CharacterState.OnWall:
                 case CharacterState.Shooting:
                 default:
                     break;

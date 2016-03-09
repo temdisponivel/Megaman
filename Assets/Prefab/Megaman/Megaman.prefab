@@ -17,8 +17,10 @@ GameObject:
   - 114: {fileID: 11469044}
   - 114: {fileID: 11414158}
   - 114: {fileID: 11423400}
+  - 114: {fileID: 11411638}
+  - 114: {fileID: 11432302}
   m_Layer: 2
-  m_Name: megaman
+  m_Name: Megaman
   m_TagString: Player
   m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -112,6 +114,30 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &11411638
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6427a04f315b3141a40c63ce4f2fd9e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _character: {fileID: 11432302}
+  _lifeStack: {fileID: 0}
+  _lifeBits:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &11414158
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -140,6 +166,19 @@ MonoBehaviour:
   _bullet: {fileID: 107736, guid: 47a8eab47f1b6f14996114b6c17bbd41, type: 2}
   _force: 25
   _cooldDown: 0.5
+--- !u!114 &11432302
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 129290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c6dd1a9d70cb4d48a3df1e9d39564db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HP: 10
+  _animator: {fileID: 9594316}
 --- !u!114 &11469044
 MonoBehaviour:
   m_ObjectHideFlags: 1
