@@ -14,7 +14,7 @@ GameObject:
   - 114: {fileID: 11445108}
   m_Layer: 0
   m_Name: megaman_default_bullet
-  m_TagString: Untagged
+  m_TagString: PlayerBullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -79,6 +79,7 @@ MonoBehaviour:
   _tagOfObjectToDestroyWhencollideWith: []
   _lifeTime: 3
   _maxDistance: 0
+  _damage: 1
 --- !u!212 &21251322
 SpriteRenderer:
   m_ObjectHideFlags: 1

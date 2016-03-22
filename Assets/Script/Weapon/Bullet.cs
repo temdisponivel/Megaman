@@ -10,6 +10,7 @@ public class Bullet : MonoBehaviour
     public List<string> _tagOfObjectToDestroyWhencollideWith = null;
     public float _lifeTime = 0;
     public float _maxDistance = 0;
+	public float _damage = 1;
     protected float _startTime = 0;
     protected Vector2 _startPosition = Vector2.zero;
     
