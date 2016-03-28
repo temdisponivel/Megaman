@@ -19,6 +19,7 @@ public class CharacterController2D : MonoBehaviour
     {
         this._body = this.GetComponent<Rigidbody2D>();
         this._collider = this.GetComponent<BoxCollider2D>();
+        this.Side = 1;
     }
 
     virtual protected void Update()
@@ -141,7 +142,6 @@ public class CharacterController2D : MonoBehaviour
 
     virtual public void AddState(CharacterState state)
     {
-        Debug.Log("ALO: " + state);
         bool changed = (this._state & state) != state;
         if (changed)
         {
@@ -156,10 +156,9 @@ public class CharacterController2D : MonoBehaviour
                     this.RemoveState(CharacterState.OnWall);
                     break;
                 case CharacterState.Initialized:
-                    Debug.Log("ALO");
-                    break;
                 case CharacterState.OnWall:
                 case CharacterState.Shooting:
+                case CharacterState.Damage:
                 default:
                     break;
             }

@@ -1,43 +1,42 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &192752
+--- !u!1 &188768
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 422712}
-  - 212: {fileID: 21285698}
-  - 58: {fileID: 5813970}
-  - 95: {fileID: 9554248}
-  - 114: {fileID: 11446030}
-  - 114: {fileID: 11496684}
+  - 4: {fileID: 478648}
+  - 95: {fileID: 9545592}
+  - 212: {fileID: 21272490}
+  - 114: {fileID: 11491716}
+  - 58: {fileID: 5814124}
   m_Layer: 0
-  m_Name: SpikyBall
+  m_Name: MetalBug
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &422712
+--- !u!4 &478648
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 192752}
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: -1}
-  m_LocalPosition: {x: 1.47, y: -1.63, z: 0}
+  m_GameObject: {fileID: 188768}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.6, y: 0.49, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!58 &5813970
+--- !u!58 &5814124
 CircleCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 192752}
+  m_GameObject: {fileID: 188768}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -45,17 +44,17 @@ CircleCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5833333
---- !u!95 &9554248
+  m_Radius: 0.53333336
+--- !u!95 &9545592
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 192752}
+  m_GameObject: {fileID: 188768}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: f55ebe6844036a4489d5e452c983c299, type: 2}
+  m_Controller: {fileID: 9100000, guid: adac1f27870f31848aac26156efe2d08, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -63,44 +62,26 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &11446030
+--- !u!114 &11491716
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 192752}
+  m_GameObject: {fileID: 188768}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2ee6d8b800cc1064fa0140a655004aef, type: 3}
+  m_Script: {fileID: 11500000, guid: 9de04244b24543641b8bf1cae756f9cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 2
-  _velocity: 5
-  _static: 1
---- !u!114 &11496684
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 192752}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dbda3beaed884224aba097b2888ecc80, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _autoDestroy: 1
-  _destroyOnCollision: 0
-  _objectToDestroyWhenCollideWith: []
-  _tagOfObjectToDestroyWhencollideWith: []
-  _lifeTime: 10
-  _maxDistance: 0
-  _damage: 1
---- !u!212 &21285698
+  HP: 0
+  _lifeSpan: 5
+  _velocity: 3
+--- !u!212 &21272490
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 192752}
+  m_GameObject: {fileID: 188768}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -121,7 +102,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300214, guid: 4ccab760d00cec040952b8078a9a350f, type: 3}
+  m_Sprite: {fileID: 21300024, guid: 4ccab760d00cec040952b8078a9a350f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -134,5 +115,5 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 192752}
+  m_RootGameObject: {fileID: 188768}
   m_IsPrefabParent: 1

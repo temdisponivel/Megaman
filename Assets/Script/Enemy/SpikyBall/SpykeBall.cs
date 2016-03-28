@@ -1,18 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class SpykeBall : Character 
+public class SpykeBall : Enemy 
 {
-	public void OnCollisionEnter2D(Collision2D collider)
-	{
-		if (collider.gameObject.tag == "PlayerBullet") 
-		{
-			Debug.Log ("ALO DANO");
-			this.HP -= collider.gameObject.GetComponent<Bullet>()._damage;
-			if (this.HP <= 0) 
-			{
-				GameObject.Destroy(this.gameObject);
-			}
-		}
-	}
+    public float _velocity = 1f;
+    public bool _static = false;
+    
+    public void Update()
+    {
+        if (this._static) { return; }
+        this.transform.position += -Vector3.right * this._velocity * Time.deltaTime;
+    }
 }

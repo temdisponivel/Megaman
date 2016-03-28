@@ -3,9 +3,20 @@ using System.Collections;
 
 public class MegamanController : CharacterController2D
 {
+    static public MegamanController Instance = null;
+    public Character _character = null;
     public float _dashImpulse = 1f;
     public float _dashCoolDown = 1f;
     protected float _lastDashTime = 0f;
+
+    public void Start()
+    {
+        if (MegamanController.Instance == null)
+        {
+            MegamanController.Instance = this;
+        }
+        base.Start();
+    }
 
     protected override void FixedUpdate()
     {
@@ -43,5 +54,14 @@ public class MegamanController : CharacterController2D
             this.Side = this.WallOnRight ? -1 : 1;
         }
         return jump;
+    }
+
+    virtual protected void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Enemy" && !this.GetState(CharacterState.Damage))
+        {
+            this._character.HP--;
+            this.AddState(CharacterState.Damage);
+        }
     }
 }

@@ -67,6 +67,10 @@ public class AnimationController : MonoBehaviour
                     this._animator.SetTrigger("dash");
                 }
                 break;
+            case CharacterState.Damage:
+                this._animator.SetBool("damage", included);
+                this._animator.SetBool("any_state_enable", !included);
+                break;
             default:
                 break;
         }

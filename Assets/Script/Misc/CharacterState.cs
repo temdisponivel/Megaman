@@ -12,4 +12,5 @@ public enum CharacterState
     OnWall = 8,
     Shooting = 16,
     Dashing = 32,
+    Damage = 64,
 }

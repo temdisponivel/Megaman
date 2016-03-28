@@ -1,16 +1,14 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class MegamanCharacter : Character
 {
-    public Animator _animator = null;
-
-    virtual protected void OnCollisionEnter2D(Collision2D collision)
+    public void Update()
     {
-        if (collision.gameObject.tag == "Enemy")
+        if (this.HP <= 0)
         {
-            this.HP--;
-            this._animator.SetTrigger("damage");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex, LoadSceneMode.Single);
         }
     }
 }
