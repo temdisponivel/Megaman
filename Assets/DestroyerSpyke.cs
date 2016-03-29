@@ -5,9 +5,10 @@ public class DestroyerSpyke : MonoBehaviour
 {
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("ALO");
         if (collision.gameObject.tag == "Ground")
         {
+            Debug.Log(collision.gameObject);
+            Debug.Log(collision.gameObject.transform.position);
             Ground aux = null;
             if ((aux = collision.gameObject.GetComponent<Ground>()) != null)
             {

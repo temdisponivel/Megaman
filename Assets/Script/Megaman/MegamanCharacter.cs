@@ -11,7 +11,7 @@ public class MegamanCharacter : Character
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex, LoadSceneMode.Single);
         }
 
-        if (this.transform.position.y < 0)
+        if (this.transform.position.y < -0.5)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex, LoadSceneMode.Single);
         }

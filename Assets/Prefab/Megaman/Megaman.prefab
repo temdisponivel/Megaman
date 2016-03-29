@@ -33,7 +33,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 129290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.61, y: -1.59, z: 0}
+  m_LocalPosition: {x: -4.25, y: 1.68, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -164,6 +164,7 @@ MonoBehaviour:
   _distance: {x: 1, y: 0}
   _character: {fileID: 11469044}
   _bullet: {fileID: 107736, guid: 47a8eab47f1b6f14996114b6c17bbd41, type: 2}
+  _bulletTwo: {fileID: 154956, guid: 29f199926a7dd0a40a9632f12cb1c256, type: 2}
   _force: 25
   _cooldDown: 0.5
 --- !u!114 &11432302

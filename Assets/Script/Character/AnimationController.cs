@@ -56,6 +56,7 @@ public class AnimationController : MonoBehaviour
                 }
                 break;
             case CharacterState.Shooting:
+            case CharacterState.Charging:
                 this._animator.SetFloat("shoot", included ? 1 : 0);
                 break;
             case CharacterState.OnGround:

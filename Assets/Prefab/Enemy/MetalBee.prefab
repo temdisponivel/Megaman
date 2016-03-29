@@ -73,8 +73,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e61f0b58d40af654fa1c40bd6fdad762, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HP: 1
-  _lifeSpan: 1
+  HP: 2
+  _lifeSpan: 2
   _velocity: 5
   _chances: 0.3
   _life: {fileID: 127136, guid: 2fdc43fa74645f943b2374b923d4a15c, type: 2}

@@ -11,7 +11,7 @@ public class RangeEnemy : MonoBehaviour
     public Animator _animator = null;
     public SpriteRenderer _spriteRenderer = null;
     public SineCurve _curve = null;
-    private Vector2 _initialPosition;
+    protected Vector2 _initialPosition;
     public float _cooldDown = 1f;
     private float _lastX = 0;
     private float _lastTimeShoot = 0;
@@ -20,6 +20,10 @@ public class RangeEnemy : MonoBehaviour
     public void Start()
     {
         this._initialPosition = this.transform.position;
+        if (this._target == null)
+        {
+            this._target = MegamanController.Instance.gameObject;
+        }
     }
 
     public void Update()

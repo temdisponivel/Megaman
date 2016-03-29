@@ -13,4 +13,5 @@ public enum CharacterState
     Shooting = 16,
     Dashing = 32,
     Damage = 64,
+    Charging = 128,
 }
