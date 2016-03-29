@@ -14,7 +14,7 @@ public class EnemySpawner : MonoBehaviour
             GameObject.Instantiate(this._toSpawn, this.transform.position, Quaternion.identity);
             yield return new WaitForSeconds(this._interval);
         }
-        GameObject.Destroy(this.gameObject);
+        //GameObject.Destroy(this.gameObject);
     }
 
     public void OnTriggerEnter2D(Collider2D collision)

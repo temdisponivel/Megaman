@@ -27,7 +27,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 192752}
   m_LocalRotation: {x: 0, y: -0, z: 0, w: -1}
-  m_LocalPosition: {x: 1.47, y: -1.63, z: 0}
+  m_LocalPosition: {x: -0.49554503, y: 2.060941, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -75,15 +75,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 2
+  _distance: 1
   _velocity: 5
-  _static: 1
+  _static: 0
 --- !u!114 &11496684
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 192752}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dbda3beaed884224aba097b2888ecc80, type: 3}
   m_Name: 
@@ -92,8 +93,8 @@ MonoBehaviour:
   _destroyOnCollision: 0
   _objectToDestroyWhenCollideWith: []
   _tagOfObjectToDestroyWhencollideWith: []
-  _lifeTime: 10
-  _maxDistance: 0
+  _lifeTime: 0
+  _maxDistance: 100
   _damage: 1
 --- !u!212 &21285698
 SpriteRenderer:

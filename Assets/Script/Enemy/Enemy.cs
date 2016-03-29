@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Enemy : Character
 {
-    public void OnCollisionEnter2D(Collision2D collider)
+    virtual public void OnCollisionEnter2D(Collision2D collider)
     {
         if (collider.gameObject.tag == "PlayerBullet")
         {

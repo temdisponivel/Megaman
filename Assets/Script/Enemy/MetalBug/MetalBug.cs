@@ -5,7 +5,7 @@ public class MetalBug : Enemy
 {
     public float _lifeSpan = 5f;
     public float _velocity = 3f;
-    private bool _updating = true;
+    protected bool _updating = true;
     private float _startTime = 0f;
     private Vector2 _initialTargetPosition = Vector2.zero;
 
@@ -15,7 +15,7 @@ public class MetalBug : Enemy
         this._initialTargetPosition = MegamanController.Instance.transform.position;
     }
 
-    public void LateUpdate()
+    virtual public void LateUpdate()
     {
         if (this._updating)
         {

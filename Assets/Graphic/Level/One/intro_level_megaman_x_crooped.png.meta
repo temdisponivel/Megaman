@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 66c295d243f26d04397525230bfb2eae
-timeCreated: 1455660711
+timeCreated: 1459230408
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -40,7 +40,7 @@ TextureImporter:
   textureFormat: -1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: 16
     mipBias: -1
     wrapMode: 1
@@ -75,10 +75,10 @@ TextureImporter:
     - name: intro_level_megaman_x_crooped_4
       rect:
         serializedVersion: 2
-        x: 165
+        x: 149
         y: 93
-        width: 15
-        height: 125
+        width: 31
+        height: 144
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,17 +144,6 @@ TextureImporter:
         - {x: -24, y: -28}
         - {x: 24, y: -28}
         - {x: 24, y: 28}
-    - name: intro_level_megaman_x_crooped_0
-      rect:
-        serializedVersion: 2
-        x: 151
-        y: 219
-        width: 26
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
     - name: intro_level_megaman_x_crooped_1
       rect:
         serializedVersion: 2

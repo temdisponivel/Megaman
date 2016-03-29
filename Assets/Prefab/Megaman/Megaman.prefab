@@ -33,7 +33,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 129290}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.39, y: 0.28, z: 0}
+  m_LocalPosition: {x: -0.61, y: -1.59, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -178,7 +178,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HP: 10
-  _animator: {fileID: 9594316}
 --- !u!114 &11469044
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -193,6 +192,7 @@ MonoBehaviour:
   _velocity: 5
   _velocityOnAir: 7
   _velocityJump: 7
+  _character: {fileID: 11432302}
   _dashImpulse: 10
   _dashCoolDown: 1
 --- !u!212 &21267022

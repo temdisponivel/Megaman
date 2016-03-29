@@ -15,7 +15,7 @@ public class CharacterController2D : MonoBehaviour
     public int Side { get; set; }
 
     #region lifecyle
-    virtual protected void Start()
+    virtual public void Start()
     {
         this._body = this.GetComponent<Rigidbody2D>();
         this._collider = this.GetComponent<BoxCollider2D>();

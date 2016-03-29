@@ -9,7 +9,7 @@ public class MegamanController : CharacterController2D
     public float _dashCoolDown = 1f;
     protected float _lastDashTime = 0f;
 
-    public void Start()
+    override public void Start()
     {
         if (MegamanController.Instance == null)
         {
@@ -58,10 +58,15 @@ public class MegamanController : CharacterController2D
 
     virtual protected void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Enemy" && !this.GetState(CharacterState.Damage))
+        if (collision.gameObject.tag == "Enemy" || collision.gameObject.tag == "EnemyBullet" && !this.GetState(CharacterState.Damage))
         {
             this._character.HP--;
             this.AddState(CharacterState.Damage);
+        }
+        else if (collision.gameObject.tag == "Life")
+        {
+            this._character.HP += collision.gameObject.GetComponent<Life>()._life;
+            GameObject.Destroy(collision.gameObject);
         }
     }
 }
